@@ -12,9 +12,9 @@ export const RootNavigator = () => {
 
   return (
     <Drawer.Navigator screenOptions={{ header: () => null }}>
-      {/*<Drawer.Screen name={DrawerRoutes.TAROT} component={Tarot} />*/}
-      {/*<Drawer.Screen name={DrawerRoutes.ANIMATEDCARD} component={AnimatedCard} />*/}
-      {/*<Drawer.Screen name={DrawerRoutes.STROKEANIMATION} component={TextAnimation} />*/}
+      <Drawer.Screen name={DrawerRoutes.TAROT} component={Tarot} />
+      <Drawer.Screen name={DrawerRoutes.ANIMATEDCARD} component={AnimatedCard} />
+      <Drawer.Screen name={DrawerRoutes.STROKEANIMATION} component={TextAnimation} />
       <Drawer.Screen name={DrawerRoutes.HEART} component={SpotifyHeart} />
     </Drawer.Navigator>
   )
